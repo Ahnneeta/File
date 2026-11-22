@@ -21,4 +21,9 @@ Reporting period: January 2019 to 14 March 2021.
 a. Budget Fact Table 
 - Description: contains information on Salesperson ID, Month, and Budget.
 - Fields: Salesperson ID, Budget and Reporting Date.
-- Purpose: Provides Context for analyzing Performance metrics by Salesperson ID, Budget ad Reporting Date.
+- Purpose: Provides Context for analyzing Performance metrics by Salesperson ID, Budget and Reporting Date.
+
+b. Fact Sales Table
+- Description: Central Table containing Business detailed performance and business data.
+- Fields: Order Date, Order No, Product Id, Salesperson Id, Supervisor, Manager, Channel, Quantity, Unit Price, Sales.
+- Purpose: Provides detailed sales transaction data for analysing business Performance.
