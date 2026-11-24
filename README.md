@@ -37,3 +37,19 @@ c. Dim Salesperson Table
 - Description: Contains Salesperson details and sales organizational information.
 - Fields: Salesperson ID, Salesperson, Supervisor, Manager and Channel.
 - Purpose: Supplies salesperson attributes for analysing sales performance across individual salesperson, Managers & Channels.
+
+# Methodology
+## Data Preparation & Cleaning
+The data was cleaned & modeled by using Power Query in **Microsoft Excel**
+Key Steps includes: 
+- Removed null values that cut across all columns in the Budget Fact Table
+- Unpivoted month & Budget(Target) 
+- Renamed Budget to Target & created a custom Reporting Date column from month column. 
+- Changed Data type for Order date, Salesperson ID, Unit price, Sales, order No on the Fact sales Table.
+- Removed null values that cut across all columns.
+- Renamed Product Key to Product ID on the Sales Fact Table.
+## Data Modelling
+Structured the Data model to support Analysis, linking salesperson performance metrics with Budget Fact Table, Sales Fact Table & Dim Product Table. This setup allows detailed drill down by Salesperson, Target, Product, and Sales, providing a comprehensive view of sales performance. 
+
+<img width="952" height="364" alt="Screenshot 2026-11-24 222025" src="https://github.com/user-attachments/assets/b486da74-ef7a-4d8b-af63-cf8236d5a34a" />
+
