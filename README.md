@@ -27,3 +27,13 @@ b. Fact Sales Table
 - Description: Central Table containing Business detailed performance and business data.
 - Fields: Order Date, Order No, Product Id, Salesperson Id, Supervisor, Manager, Channel, Quantity, Unit Price, Sales.
 - Purpose: Provides detailed sales transaction data for analysing business Performance.
+
+c. Dim Product product
+- Description: Contains product related Information.
+- Fields: Product ID, Product Name, Product Group and Product Category
+- Purpose: Provides product classification and descriptive information for analyzing sales by product category.
+
+c. Dim Salesperson Table
+- Description: Contains Salesperson details and sales organizational information.
+- Fields: Salesperson ID, Salesperson, Supervisor, Manager and Channel.
+- Purpose: Supplies salesperson attributes for analysing sales performance across individual salesperson, Managers & Channels.
